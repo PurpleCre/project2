@@ -4,7 +4,7 @@ const doc = {
     title: 'Certificates Api',
     description: 'Certificates Api'
   },
-  host: 'localhost:3000',
+  host: 'project2-2zzo.onrender.com',
   schemes: ['http', 'https']
 };
 const outputFile = './swagger.json';
