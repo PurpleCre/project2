@@ -70,13 +70,13 @@ DELETE http://localhost:3000/certificates/679744fb0d0a4a1a069a9a34
 
 //Production
 ### Get all certificates
-GET cse341-purplecre.onrender.com/certificates
+GET project2-2zzo.onrender.com/certificates
 
 ### Get certificate by ID
-GET cse341-purplecre.onrender.com/certificates/66fd3e0ac8809d867c7576b7
+GET project2-2zzo.onrender.com/certificates/679744fb0d0a4a1a069a9a34
 
 ### Create certificate
-POST cse341-purplecre.onrender.com/certificates HTTP/1.1
+POST project2-2zzo.onrender.com/certificates HTTP/1.1
 content-Type: application/json 
 {
     "title": "Web Development",
@@ -106,7 +106,7 @@ content-Type: application/json
 }
 
 ### PUT certificate
-PUT  cse341-purplecre.onrender.com/certificates/66fd3e0ac8809d867c7576b7 HTTP/1.1
+PUT  project2-2zzo.onrender.com/certificates/679744fb0d0a4a1a069a9a34 HTTP/1.1
 Content-Type: application/json
 {
     "title": "Web Development",
@@ -136,4 +136,4 @@ Content-Type: application/json
 }
 
 ### Delete certificate
-DELETE cse341-purplecre.onrender.com/certificates/670ab5a90ffefe4c9fe41522
+DELETE project2-2zzo.onrender.com/certificates/679744fb0d0a4a1a069a9a34
