@@ -7,5 +7,6 @@ routes.get('/', (req, res) => {
 });
 
 routes.use('/certificates', require('./certificates'));
+routes.use('/degrees', require('./degrees'));
 
 module.exports = routes;

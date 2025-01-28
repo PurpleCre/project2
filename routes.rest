@@ -66,7 +66,55 @@ Content-Type: application/json
 }
 
 ### Delete certificate
-DELETE http://localhost:3000/certificates/679744fb0d0a4a1a069a9a34
+DELETE http://localhost:3000/certificates/679744fb0d0a4a1a069a9a34### Get all certificates
+
+
+###### routes for degrees
+
+### Get all degrees
+GET http://localhost:3000/degrees
+
+### Get degree by ID
+GET http://localhost:3000/degrees/6798974c70a6f3854483833a
+### Create degree
+POST http://localhost:3000/degrees HTTP/1.1
+content-Type: application/json 
+
+{
+    "title": "Associate of Applied Science Software Development",
+    "outcomes": [
+        "Demonstrate the traits of an effective team member.",
+        "Develop dynamic, data-driven web applications using both relational and NoSQL databases.",
+        "Develop applications in a variety of languages and platforms.",
+        "Design websites that are visually appealing and follow industry standards."
+    ],
+    "employment": [
+        "Successful students will be prepared for a variety of positions in web and software development."
+    ],
+    "requirements": "Degrees are built by selecting three certificates, which are typically made up of five courses each. Our recommended plans are designed to lead to better job opportunities. To earn a bachelor’s degree, you will complete three certificates plus additional requirements."
+}
+### PUT degree
+PUT  http://localhost:3000/degrees/6798a02f8bee7281ef91eb56
+Content-Type: application/json
+
+{
+    "title": "Associate of Applied Science Software Development",
+    "outcomes": [
+        "Demonstrate the traits of an effective team member.",
+        "Develop dynamic, data-driven web applications using both relational and NoSQL databases.",
+        "Develop applications in a variety of languages and platforms.",
+        "Design websites that are visually appealing and follow industry standards."
+    ],
+    "employment": [
+        "Successful students will be prepared for a variety of positions in web and software development."
+    ],
+    "requirements": "Degrees are built by selecting three certificates, which are typically made up of five courses each. Our recommended plans are designed to lead to better job opportunities. To earn a bachelor’s degree, you will complete three certificates plus additional requirements."
+}
+
+### Delete degree
+DELETE http://localhost:3000/degrees/6798a02f8bee7281ef91eb56
+
+
 
 //Production
 ### Get all certificates
@@ -137,3 +185,49 @@ Content-Type: application/json
 
 ### Delete certificate
 DELETE project2-2zzo.onrender.com/certificates/679744fb0d0a4a1a069a9a34
+
+
+###### routes for degrees
+
+### Get all degrees
+GET httproject2-2zzo.onrender.com/degrees
+
+### Get degree by ID
+GET httproject2-2zzo.onrender.com/degrees/6798974c70a6f3854483833a
+### Create degree
+POST htproject2-2zzo.onrender.com/degrees HTTP/1.1
+content-Type: application/json 
+
+{
+    "title": "Associate of Applied Science Software Development",
+    "outcomes": [
+        "Demonstrate the traits of an effective team member.",
+        "Develop dynamic, data-driven web applications using both relational and NoSQL databases.",
+        "Develop applications in a variety of languages and platforms.",
+        "Design websites that are visually appealing and follow industry standards."
+    ],
+    "employment": [
+        "Successful students will be prepared for a variety of positions in web and software development."
+    ],
+    "requirements": "Degrees are built by selecting three certificates, which are typically made up of five courses each. Our recommended plans are designed to lead to better job opportunities. To earn a bachelor’s degree, you will complete three certificates plus additional requirements."
+}
+### PUT degree
+PUT  htproject2-2zzo.onrender.com/degrees/6798a02f8bee7281ef91eb56
+Content-Type: application/json
+
+{
+    "title": "Associate of Applied Science Software Development",
+    "outcomes": [
+        "Demonstrate the traits of an effective team member.",
+        "Develop dynamic, data-driven web applications using both relational and NoSQL databases.",
+        "Develop applications in a variety of languages and platforms.",
+        "Design websites that are visually appealing and follow industry standards."
+    ],
+    "employment": [
+        "Successful students will be prepared for a variety of positions in web and software development."
+    ],
+    "requirements": "Degrees are built by selecting three certificates, which are typically made up of five courses each. Our recommended plans are designed to lead to better job opportunities. To earn a bachelor’s degree, you will complete three certificates plus additional requirements."
+}
+
+### Delete degree
+DELETE project2-2zzo.onrender.com/degrees/6798a02f8bee7281ef91eb56

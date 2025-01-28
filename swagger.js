@@ -1,7 +1,7 @@
 const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
-    title: 'Certificates Api',
+    title: 'School Thingy',
     description: 'Certificates Api'
   },
   host: 'project2-2zzo.onrender.com',
