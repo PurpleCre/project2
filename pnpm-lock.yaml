@@ -29,9 +29,9 @@ importers:
       passport:
         specifier: ^0.7.0
         version: 0.7.0
-      passport-github:
-        specifier: ^1.1.0
-        version: 1.1.0
+      passport-github2:
+        specifier: ^0.1.12
+        version: 0.1.12
       swagger-autogen:
         specifier: ^2.23.7
         version: 2.23.7
@@ -966,9 +966,9 @@ packages:
     resolution: {integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==}
     engines: {node: '>= 0.8'}
 
-  passport-github@1.1.0:
-    resolution: {integrity: sha512-XARXJycE6fFh/dxF+Uut8OjlwbFEXgbPVj/+V+K7cvriRK7VcAOm+NgBmbiLM9Qv3SSxEAV+V6fIk89nYHXa8A==}
-    engines: {node: '>= 0.4.0'}
+  passport-github2@0.1.12:
+    resolution: {integrity: sha512-3nPUCc7ttF/3HSP/k9sAXjz3SkGv5Nki84I05kSQPo01Jqq1NzJACgMblCK0fGcv9pKCG/KXU3AJRDGLqHLoIw==}
+    engines: {node: '>= 0.8.0'}
 
   passport-oauth2@1.8.0:
     resolution: {integrity: sha512-cjsQbOrXIDE4P8nNb3FQRCCmJJ/utnFKEz2NX209f7KOHPoX18gF7gBzBbLLsj2/je4KrgiwLLGjf0lm9rtTBA==}
@@ -2384,7 +2384,7 @@ snapshots:
 
   parseurl@1.3.3: {}
 
-  passport-github@1.1.0:
+  passport-github2@0.1.12:
     dependencies:
       passport-oauth2: 1.8.0
 
